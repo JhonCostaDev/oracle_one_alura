@@ -1,0 +1,43 @@
+body {
+    background-image: url('img/adv.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+h1 {
+    border: 1px solid black;
+    background-color: gray;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.campo {
+    height: 200px;
+    width: 400px;
+    background-color: rgba(92, 72, 190, 0.85);
+    border-radius: 2%;
+    border: 3px solid black;
+}
+
+.campo p {
+    text-align: center;
+    
+    
+}
+
+.chute {
+    padding-left: 20%;
+}
+.chute input{
+    width: 150px;
+}
