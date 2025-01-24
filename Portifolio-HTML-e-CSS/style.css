@@ -16,6 +16,7 @@ body{
     box-sizing: border-box; /*elemento sempre dentro do elemento parent*/
 }
 .principal {
+    max-width: 900px;
     margin: 10%;
     display: flex;
     align-items: center;
@@ -24,6 +25,9 @@ body{
 
 .principal__conteudo {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .principal__conteudo__titulo{
@@ -42,4 +46,22 @@ body{
 .foto {
     width: 250px;
     border-radius: 10%;
+}
+
+.principal__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.principal__links__link{
+    background-color: #22D4FD;
+    width: 230px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px;
+    color: #000000;
+    font-family:"Montserrat", serif;
+    font-weight: 700;
 }
