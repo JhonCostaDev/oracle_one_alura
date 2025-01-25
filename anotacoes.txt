@@ -111,3 +111,8 @@ Agora é sua vez de criar, topa o desafio?
 
 
 # 5 Aplicando variáveis CSS 
+
+```css
+    :hover {
+        --color-main:rgb(106, 13, 135);
+}
