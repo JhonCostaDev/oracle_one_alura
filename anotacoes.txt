@@ -1,1 +1,56 @@
-03 - Figma do projeto atualizado.
+#03 - Figma do projeto atualizado.
+Alterações no projeto no figma que iremos implementar em nosso portifólio.
+
+#04. posicionando links
+Aprendemos que podemos utilizar o {display: flex} para posicionar elementos na tela, observando seu comportamento padrão.
+
+ * Como alinhar 4 quadrados verticalmente dentro de uma <div>?
+
+ ```css 
+  <body>
+        <div class="container">
+            <div class="quadrado"></div>
+            <div class="quadrado"></div>
+            <div class="quadrado"></div>
+            <div class="quadrado"></div>
+        </div>
+    </body>
+````
+    Para alinhar os 4 quadrados verticalmente, um embaixo do outro, você precisa definir a propriedade `flex-direction: column;` no CSS do elemento pai `.container`. Isso porque, por padrão, o `display: flex` alinha os elementos filhos horizontalmente. Ao definir `flex-direction: column;`, você está informando que a direção do eixo principal do layout flex deve ser vertical, fazendo com que os elementos filhos se alinhem um abaixo do outro. Dessa forma, você conseguirá organizar os 4 quadrados verticalmente, conforme o resultado desejado.
+
+#05 Estilizando links 
+    * Adicionando uma classe ao h2
+    * Remover background dos botoes, alterando bordas dos       botoes, ajustes gerais nos botoes
+
+    * Durante a aula, personalizamos a propriedade CSS chamada border, para adicionar a borda em volta dos botões. Essa propriedade pode ser usada para definir os valores de largura da borda, estilo da borda e cor da borda e possui alguns estilos diferentes, como o “dotted”, que conhecemos na aula através da documentacao (https://www.w3schools.com/css/css_border.asp).
+
+    * Boas práticas ao comentar
+    Os comentários podem ser muito úteis para facilitar o desenvolvimento, no entanto, precisamos ter atenção a algumas boas práticas para fazer seu uso adequado:
+
+        * Evite adicionar muitos comentários para não gerar uma “bagunça” em seu código;
+    
+        * Evite criar comentários muito longos. Tenha em mente que apesar de não serem executados, esses comentários ocupam espaço e podem deixar seu arquivo mais pesado;
+        * Use os comentários a seu favor, ou seja, anote informações essenciais neles, pois isso irá facilitar com que você encontre aquilo que é realmente necessário lembrar no momento de fazer manutenções em seu código;
+        *Ao usar comentários para testar sua aplicação, lembre-se de apagar essas notas quando terminar, para que seu código não fique desorganizado e com partes desnecessárias;
+        * Por fim, lembre-se sempre que um código descritivo é mais duradouro que muitos comentários. Quando estiver trabalhando com HTML, lembre-se de usar as Tags semânticas e ao criar suas classes CSS, adicione nomes significativos. Assim, seu código ficará naturalmente descritivo e não dependerá tanto dos comentários, que podem ser apagados ou se perderem ao longo de manutenções =) .    
+    ## 08 Lista de exercícios
+
+    1) Adicionando um subtítulo à página:
+    Imagine que você está desenvolvendo uma página web para compartilhar suas redes sociais. Você precisa adicionar um subtítulo "Acesse minhas redes:" acima dos links para Instagram e Github. Sua tarefa é editar o arquivo index.html para incluir esse subtítulo. Lembre-se de usar a tag <h2> para o subtítulo e colocá-lo dentro da <div> que já contém os links.
+
+    2) Alterando a disposição dos elementos com Flexbox
+        Agora que o subtítulo foi adicionado, você percebe que ele está alinhado à esquerda dos botões, ao invés de acima deles. Isso aconteceu porque os elementos estão dispostos horizontalmente. Sua missão é alterar a disposição dos elementos (subtítulo e botões) para uma disposição vertical. Edite o arquivo style.css, modificando a propriedade flex-direction para column dentro da classe .apresentacao__links. Isso mudará a direção do Flexbox, alinhando os elementos verticalmente.
+
+    3) Ajustando o alinhamento e o espaçamento dos elementos
+        Após modificar a direção do Flexbox, você observa que os elementos (texto e botões) estão muito próximos uns dos outros e alinhados à esquerda. Para melhorar a estética da página, você precisa centralizar esses elementos verticalmente e adicionar um espaçamento entre eles. No arquivo style.css, dentro da classe .apresentacao__links, adicione a propriedade align-items: center para centralizar os elementos. Em seguida, insira a propriedade gap com o valor de 32px para adicionar o espaçamento entre cada elemento.
+
+    4) Criando uma classe para o subtítulo
+        Você está desenvolvendo uma página web e decidiu que o subtítulo "Acesse minhas redes:" precisa de uma estilização específica. Para isso, você vai criar uma classe CSS para este subtítulo. No arquivo index.html, encontre a tag <h2> que contém o subtítulo e adicione uma classe chamada apresentacao__links__subtitulo. Sua tarefa é inserir essa classe na tag <h2> de forma correta.
+
+    5) Estilizando o subtítulo
+        Agora que você criou uma classe para o subtítulo, é hora de estilizá-lo. No arquivo style.css, adicione a classe .apresentacao__links__subtitulo e configure as propriedades de estilo. Utilize a fonte 'Krona One', com um peso de fonte (font-weight) de 400 e um tamanho de fonte (font-size) de 24px. Ajuste a fonte para ser 'sans-serif' sem aspas. Sua tarefa é escrever o código CSS para aplicar essas configurações ao subtítulo.
+
+    6) Modificando o estilo dos botões
+        Os botões da sua página precisam de um novo visual. No arquivo style.css, encontre a classe .apresentacao__links__link e faça as seguintes alterações: remova o fundo ciano, mude a cor do texto para branco (#F6F6F6), adicione uma borda sólida de 2px na cor ciano (#22D4FD), altere a largura para 378px, e ajuste o border-radius para 8px. Sua tarefa é alterar o código CSS para refletir estas mudanças, criando botões com bordas ciano, texto branco, e cantos menos arredondados.
+
+#06  
