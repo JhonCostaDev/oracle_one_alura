@@ -53,4 +53,61 @@ Aprendemos que podemos utilizar o {display: flex} para posicionar elementos na t
     6) Modificando o estilo dos botões
         Os botões da sua página precisam de um novo visual. No arquivo style.css, encontre a classe .apresentacao__links__link e faça as seguintes alterações: remova o fundo ciano, mude a cor do texto para branco (#F6F6F6), adicione uma borda sólida de 2px na cor ciano (#22D4FD), altere a largura para 378px, e ajuste o border-radius para 8px. Sua tarefa é alterar o código CSS para refletir estas mudanças, criando botões com bordas ciano, texto branco, e cantos menos arredondados.
 
-#06  
+2 - Adicionando ícones das redes sociais.
+
+    * Posicionando ícones
+    * Efeito: Hover
+    O hover é usado para selecionar elementos quando você passa o mouse sobre eles. Essa e outras informações úteis sobre o hover você pode encontrar na documentação =)
+        ```css
+        .apresentacao__links__link:hover {
+        background-color: #272727;
+        }
+        ```
+
+3 - criando header e footer
+
+    * Footer: adicionado a classe rodape ao footer
+
+    ```css
+        .rodape{
+            padding: 24px;
+            color: #000000;
+            background-color: #22D4FD;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+        }
+    ```
+    * Header: Adicionado header a pagina
+        Criado o header com a tag semâtica <nav> e dois links (home, about me)
+    ```html
+            <header class="cabecalho">
+                 <nav class="cabecalho__menu">
+                        <a href="" class="cabecalho__menu__link">Home</a>
+                        <a href="" class="cabecalho__menu__link">About me</a>
+                 </nav>
+            </header>
+    ``` 
+
+    4 - Navegando entre páginas
+    Criacao da pagina about me, linkano elas ao index.html
+
+    desafio:
+
+    Agora que você aprendeu a criar outras páginas com HTML, queremos te desafiar!
+
+Crie mais uma página em seu projeto e construa nela o seu currículo.
+
+Você pode seguir a estrutura dos currículos tradicionais, com suas informações no topo e sua estrutura dividida em seções, ou você pode soltar sua criatividade e fazer algo totalmente diferente, fica a seu critério.
+
+É importante que nessa página currículo você adicione uma imagem sua e crie pelo menos uma lista HTML, que contenha suas experiências de trabalho ou estudos.
+
+Além disso, pode ser interessante adicionar outros projetos caso você tenha.
+
+Lembre-se: não tenha medo de personalizar esta página, afinal é o seu currículo e quanto mais tiver “a sua cara”, melhor.
+
+Agora é sua vez de criar, topa o desafio?
+
+
+# 5 Aplicando variáveis CSS 

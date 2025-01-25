@@ -6,15 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="index.html" class="cabecalho__menu__link">Home</a>
+            <a href="aboutMe.html" class="cabecalho__menu__link">About me</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível<strong 
-            class="titulo-destaque">com um Front-end de qualidade!
+            class="titulo-destaque"> com um Front-end de qualidade!
             </strong></h1>
             <p class="apresentacao__conteudo__texto">Olá! Sou Joana Santos, desenvolvedora
             Front-end com especialidade em React, HTML e
@@ -23,13 +28,19 @@
             conversar?</p>
             <div class="apresentacao__links">
                 <h2 class="apresentacao__links__subtitulo">Acesse Minhas Redes:</h2>
-                <a class="apresentacao__links__link" href="https://instagram.com/rafaballerini">Instagram</a>
-                <a class="apresentacao__links__link" href="https://github.com/guilhermeonrails">GitHub</a>
+                <a class="apresentacao__links__link" href="https://github.com/guilhermeonrails"> <img src="assets/github.png" alt="ícone do github azul">GitHub</a>
+
+                <a class="apresentacao__links__link" href="https://github.com/guilhermeonrails"> <img src="assets/linkedin.png" alt="ícone do github azul">Linkedin</a>
+
+                <a class="apresentacao__links__link" href="https://github.com/guilhermeonrails"> <img src="assets/twitch.png" alt="ícone do github azul">Twitch</a>
             </div>
         </section>
-        <img src="Imagem.png" alt="Foto da Joana Santos programando">
+        <img src="assets/Imagem.png" alt="Foto da Joana Santos programando">
     </main>
-    <footer></footer>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Alura.</p>
+    </footer>
 </body>
 
 </html>
