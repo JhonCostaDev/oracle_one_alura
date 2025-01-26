@@ -152,3 +152,7 @@ Um atalho que pode facilitar muito o processo de alterar as cores em todo o cód
 https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/121128
 
 https://youtu.be/y4ltLH9iK8E
+
+
+
+--> Curso de HTML e CSS: trabalhando com responsividade e publicação de projetos
