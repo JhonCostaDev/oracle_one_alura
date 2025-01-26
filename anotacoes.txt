@@ -116,3 +116,11 @@ Agora é sua vez de criar, topa o desafio?
     :hover {
         --color-main:rgb(106, 13, 135);
 }
+
+# Exibit no nome da branch no terminal  
+    https://warcontent.com/branch-git-no-terminal/
+
+    Para isso adicione o seguinte código no final do arquivo .bashrc ou .bash_profile (ambos encontrados na home do usuário ~/):
+
+    export PS1='\u@\h\[\033[01;34m\] \w\[\033[0;32m\]$(__git_ps1 " (%s)")\[\033[01;34m\]$\[\033[00m\] '
+
