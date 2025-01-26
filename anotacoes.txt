@@ -124,3 +124,31 @@ Agora é sua vez de criar, topa o desafio?
 
     export PS1='\u@\h\[\033[01;34m\] \w\[\033[0;32m\]$(__git_ps1 " (%s)")\[\033[01;34m\]$\[\033[00m\] '
 
+Utilizar variáveis em css para poder reutilizar partes do codigo que podem ser reaproveitadas.
+
+Utilizando Roda de cores para mudar paleta de cores
+ --> colorhunt.co
+
+## saiba mais:
+Trabalhando com variáveis CSS
+
+As propriedades de customização CSS, mais conhecidas como variáveis CSS, podem ser muito úteis para deixar as atualizações de layout do projeto mais práticas. Pensando nisso, imagine que você criou uma variável para armazenar a cor que deseja aplicar no cabeçalho do seu projeto, como podemos observar no código a seguir:
+
+```CSS 
+    :root{
+    cor-atualizada-do-projeto:  #eb94bd;
+}
+.cabecalho{
+        background-color: black;
+}
+```
+Nessa aula conhecemos as variáveis CSS e descobrimos seu potencial para customização do projeto.
+
+Um atalho que pode facilitar muito o processo de alterar as cores em todo o código para atribuir em seu lugar a variável é o ctrl + D. Basta selecionar o que deseja mudar com o mouse e em seguida clicar em ctrl + D até que todos os valores que você deseja alterar estejam selecionados. Isso irá permitir mudar ao mesmo tempo todos os valores seguintes que sejam iguais ao que você selecionou com o mouse, como podemos observar no gif a seguir:
+
+
+# PROJETOS PARA PRATICAR
+
+https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/121128
+
+https://youtu.be/y4ltLH9iK8E
