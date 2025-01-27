@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-primaria: #000000;
+    /*Variaveis de cores*/
+    /* --cor-primaria: #000000;
     --cor-secundaria: #F6F6F6;
     --cor-terciaria: #22D4FD;
-    --cor-hover: #272727;
+    --cor-hover: #272727; */
+    --cor-primaria: #000B58;
+    --cor-secundaria: #25acb0;
+    --cor-terciaria: #FFF4B7;
+    --cor-hover: #003161;
 
-    /*TODO: add fonts var*/
+    /*Variaveis de fonts*/
+
+    --font-primaria: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+    
 }
 
 *{
@@ -32,7 +41,7 @@ body{
 }
 
 .cabecalho__menu__link{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 24px;
     font-weight: 600;
     color: var(--cor-terciaria);
@@ -53,7 +62,7 @@ body{
 
 .apresentacao__conteudo__titulo{
     font-size: 36px;
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--font-primaria);
 }
 
 .titulo-destaque{
@@ -62,7 +71,7 @@ body{
 
 .apresentacao__conteudo__texto{
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secundaria);
 }
 
 .apresentacao__links{
@@ -74,13 +83,13 @@ body{
 }
 
 .apresentacao__links__subtitulo {
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--font-primaria);
     font-weight: 400;
     font-size: 24px;
 }
 
 .apresentacao__links__subtitulo:hover {
-    color: red;
+    color: #22D4FD;
 }
 
 .apresentacao__links__link{
@@ -97,7 +106,7 @@ body{
     padding: 21.5px 0;
     text-decoration: none;
     color: var(--cor-secundaria);
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secundaria);
 }
 
 .apresentacao__links__link:hover {
@@ -109,7 +118,7 @@ body{
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 24px;
     font-weight: 400;
 }
