@@ -154,7 +154,48 @@ https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/
 https://youtu.be/y4ltLH9iK8E
 
 
-
+{   TODO
+    No debian anm, tentar colorir prompt
+}
 --> Curso de HTML e CSS: trabalhando com responsividade e publicação de projetos
 
 # Unidades de medida
+
+É muito importante utilizarmos as unidades de medidas relativas nos textos e títulos ou até mesmo nos elementos do nosso site, como por exemplo, as imagens.
+
+Essa medida ajuda as pessoas com baixa visão que precisam alterar a aparência do navegador ou aplicar mais zoom para aumentar o tamanho dos elementos.
+
+Lembrando que podemos diminuir o zoom da página também quando quisermos ter uma visão mais ampla dos elementos. Muito legal não é mesmo? :)
+
+Esse artigo da Alura sobre unidades de medidas pode ajudar bastante o seu aprendizado: Artigo sobre unidade de medidas .
+https://www.alura.com.br/artigos/guia-de-unidades-no-css
+
+sobre unidade de medida porcentagem 
+https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos/task/121387
+
+#
+
+1) Adaptando imagens para diferentes tamanhos de tela
+Você está trabalhando em um site e precisa garantir que as imagens se adaptem corretamente a diferentes tamanhos de tela. Sua tarefa é adicionar uma classe apresentacao__imagem às imagens relevantes no HTML e definir o width dessa classe para 50% no CSS. Isso fará com que as imagens ocupem 50% da largura do elemento pai. Certifique-se de testar em diferentes larguras de tela, como 720px, para verificar a responsividade.
+
+2) Ajustando o layout para diferentes dispositivos
+O layout do seu site precisa ser ajustado para diferentes dispositivos. Utilize a ferramenta "Inspecionar" do navegador para simular diferentes tamanhos de tela, como um notebook. Ajuste o layout da página para que ele se adapte de forma harmoniosa em telas menores. Isso pode envolver a alteração de margens, paddings, e até mesmo a reorganização de elementos na página.
+
+3) Responsividade do conteúdo de texto
+O conteúdo de texto do seu site não está se adaptando bem a telas menores. Você precisa ajustar a classe .apresentacao__conteudo no CSS para usar larguras relativas em vez de fixas. Experimente definir a width para 50% e observe como o texto se adapta quando você muda o tamanho da tela. Lembre-se de que a responsividade é chave para uma boa experiência do usuário em dispositivos diversos.
+
+4) Melhorando a responsividade dos links de navegação
+Os links de navegação do seu site estão se comportando de forma inadequada em diferentes tamanhos de tela. Sua tarefa é ajustar a classe .apresentacao__links__navegacao no CSS. Altere a width para um valor relativo, como 50%, e teste em diferentes tamanhos de tela. Observe como os links respondem a essas mudanças e ajuste conforme necessário para garantir uma navegação fluida e acessível.
+
+# 
+Sabia que você pode ter mais de uma media query em seu projeto? É possível definir um tamanho de tela para o celular outro para o tablet e deixar a “padrão” para o desktop.
+
+Exemplo:
+
+Podemos definir uma largura máxima de “480px” para o celular: @media (max-width: 480px), e em outra media query definir uma largura máxima de “800px” para os tablets: @media (max-width: 800px), e então atribuímos os ajustes necessários dentro de cada media query, dessa forma teremos nosso site 100% responsivo.
+
+Podemos também definir intervalos para os tamanhos de telas com um único media query, atribuímos o valor mínimo e depois o valor máximo separando ele pelo atributo and, veja: @media (min-width: 480px ) and (max-width: 800px), nesse caso os estilos serão aplicados em telas de no mínimo “480px” e de no máximo “800px”.
+
+Lembrando que a maioria dos acessos à internet hoje em dia é através dos dispositivos móveis, portanto, não se esqueça de sempre deixar os seus projetos e sites responsivos.
+
+Para aprender mais, visite o site da Mozilla, e leia a documentação sobre media queries.
