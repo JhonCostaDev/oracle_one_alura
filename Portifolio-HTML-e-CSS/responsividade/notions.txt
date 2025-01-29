@@ -1,0 +1,6 @@
+Revisar passos anteriores
+
+reforçar media queries
+
+
+Hospedagem na vercel
