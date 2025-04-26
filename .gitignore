@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Environment variables
+*.env
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testes
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+
+# Distribuição de pacotes
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Dados (dados brutos ou resultados)
+data/
+datasets/
+*.csv
+*.tsv
+*.zip
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.parquet
+*.pkl
+
+# Modelos treinados
+models/
+*.joblib
+*.pkl
+*.sav
+*.pt
+*.ckpt
+
+# Gráficos e outputs
+figures/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
