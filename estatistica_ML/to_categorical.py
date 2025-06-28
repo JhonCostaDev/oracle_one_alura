@@ -60,16 +60,22 @@ distribuicao_freq
 distribuicao_freq.columns = ['avaliacao', 'quantidade', 'porcentagem %']
 
 # %%
-sns.barplot(data=distribuicao_freq, x='avaliacao', y='porcentagem %')
+plt.figure(figsize=(10,6))
+ax = sns.barplot(data=distribuicao_freq, x='avaliacao', y='porcentagem %',hue='avaliacao', palette='viridis')
 
 plt.title('Distribuição de Frequência')
 plt.xlabel("Classificação das avaliações")
 plt.ylabel("Porcentagem das avaliações")
 
-# for i, row in distribuicao_freq.iterrows():
-#     plt.text(i, row['quantidade'] + 0.1, f"{row['quantidade']} ({row['porcentagem %']:.1f}%)", ha='center', va='bottom', fontsize=12)
+# NAO RODAR
+# for idx, row in distribuicao_freq.iterrows():
+#     plt.text(idx, row['quantidade'] + 0.1, f"{row['quantidade']} ({row['porcentagem %']:.1f}%)", ha='center', va='bottom', fontsize=12)
 
 plt.show()
 # %%
 
+# %%
+# AVALIACAO CRUZADA CROSTABLE
+
+df
 # %%
